@@ -1,5 +1,11 @@
-# provider
+# Provider
 Created a provider to validate the consumer contract generated with Pact
+
+## Running the application
+To run the application on port 3333:
+``
+npm start
+`` 
 
 ## Banco de dados
 - MongoDB Atlas
