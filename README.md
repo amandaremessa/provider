@@ -1,5 +1,5 @@
 # provider
-Created a provider to validated the consumer contract generated with Pact
+Created a provider to validate the consumer contract generated with Pact
 
 ## Banco de dados
 - MongoDB Atlas
