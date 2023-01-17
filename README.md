@@ -7,7 +7,7 @@ To run the application on port 3333:
 npm start
 `` 
 
-## Banco de dados
+## Database
 - MongoDB Atlas
 
 ## API
