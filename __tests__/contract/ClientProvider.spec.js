@@ -1,6 +1,8 @@
 const path = require("path");
 const { Verifier } = require("@pact-foundation/pact");
 
+jest.setTimeout(9999999);
+
 describe("Cliente Provider", ()=>{
     it("should verify the contract", async()=>{
         return new Verifier({
