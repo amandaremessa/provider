@@ -11,5 +11,18 @@ module.exports = {
         };
        
         return res.json(food);
+    },
+
+    async getAll(req, res){
+        let foods = await Food.find();
+
+        return res.json(foods);
+    },
+
+    async getById(req, res){
+        const { id } = req.params;
+        let food = await Food.findOne({ id });
+        
+        return res.json(food);
     }
 }
